@@ -1,0 +1,176 @@
+.containerOne {
+	background: url(../light.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 2%;
+}
+
+header {
+
+	display: flex;
+	justify-content: center;
+}
+
+nav {
+	margin-top: 3%;
+	background: orange;
+}
+
+li {
+	display: inline-block;
+		padding: 10px;
+}
+
+ul {
+	justify-content: space-around;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	font-size: 20px;
+}
+
+/* End of header */
+
+/* Text and button start */
+
+.textBlock {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	margin: 5% 0;
+}
+
+.textBlock h1,
+.textBlock p{
+	color: #fff;
+}
+
+h1 {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.press {
+	margin: 2% auto;
+	border: 2px solid black;
+	color: #000;
+	background: orange;
+	font-size: 15px;
+	padding: 5px;
+}
+
+/* End of text and button */
+
+.twoBoxes {
+	display: flex;
+	justify-content: center;
+}
+
+/* Other example */
+
+.boxEl {
+	text-align: center;
+	display: inline-block;
+	background: #fff;	
+	padding: 10px;
+	width: 250px;	
+}
+
+.imageMargin {
+	margin-right: 1%;
+}
+
+.boxEl img {
+	width: 200px;
+	padding: 2% 0;
+}
+
+/* containerOne end */
+
+/* containerTwo start */
+
+.containerTwo {
+	background: url(../spring.gif) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 5% 0; 
+	display: flex;
+	justify-content: center;
+}
+
+.textView {
+	display: inline-block;
+	padding: 10px;
+	background: rgba(241, 241, 241, 0.5);
+}
+
+.textView p {
+	padding: 3% 0;
+}
+
+.textOne {
+	width: 300px;
+}
+
+.textTwo {
+	vertical-align: top;
+	width: 280px;
+}
+
+.textTwo a {
+	background: orange;
+	color: #fff;
+	font-size: 16px;
+	padding: 5px;
+	text-align: center;
+	margin-left: 80px;
+}
+
+/* End of containerTwo */
+
+/* containerThree */
+
+.containerThree {
+	background: orange;
+	text-align: center;
+	padding: 15px;
+}
+.leftSpan {
+	display: flex;
+	justify-content: flex-start;
+
+}
+
+.centerElement {
+	padding-bottom: 150px;
+		display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+
+.centerElement span {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.centerElement h1 {
+	color: #fff;
+	padding-top: 150px;
+	padding-bottom: 40px;
+}
+
+.centerElement a{
+	color: #fff;
+	background: blue;
+	margin: 0 auto;
+	padding: 10px 15px;
+	border-radius: 10px;
+}
